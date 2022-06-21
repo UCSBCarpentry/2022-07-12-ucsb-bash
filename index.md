@@ -13,8 +13,8 @@ humandate: "July 12 & 14, 2022"    # human-readable dates for the workshop (e.g.
 humantime: "10 am - 12 pm PST"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2022-07-12      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2022-07-14        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Lead instructor", "Amanda Ho"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Brian Dincau", "helper two", "helper three"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+instructor: ["Seth Erickson", "Amanda Ho"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Brian Dincau"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["library-collaboratory@ucsb.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2022-07-12-ucsb-bash # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:  361091031997  # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -69,7 +69,7 @@ are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
-<strong>Registration for this workshop begins on Jun 24, 2022 at 8:00 am PST.</strong>
+<h2>Registration for this workshop begins on Jun 24, 2022 at 8:00 am PST.</h2>
 
 <strong>Some adblockers block the registration window. If you do not see the
   registration box below, please check your adblocker settings.</strong>
@@ -409,7 +409,7 @@ please preview your site before committing, and make sure to run
   {% endif %}
   workshop,
   you will need access to software as described below.
-  In addition, you will need an up-to-date web browser.
+  In addition, you will need an up-to-date web browser.  Please install/update the below video conference application we will be using, <stong>if you are attending this workshop remotely.</strong>
 </p>
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
@@ -427,9 +427,9 @@ If you do not use Zoom for your online workshop, edit the file
 `_includes/install_instructions/videoconferencing.html`
 to include the relevant installation instrucctions.
 {% endcomment %}
-{% if online != "false" %}
+
 {% include install_instructions/videoconferencing.html %}
-{% endif %}
+
 
 {% comment %}
 These are the installation instructions for the tools used
@@ -447,3 +447,5 @@ Please check the "Setup" page of
 [the lesson site]({{ site.incubator_lesson_site }}) for instructions to follow
 to obtain the software and data you will need to follow the lesson.
 {% endif %}
+
+{% include install_instructions/videoconferencing.html %}
