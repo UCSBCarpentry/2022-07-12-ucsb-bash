@@ -113,7 +113,7 @@ Explain who your audience is.  (In particular, tell readers if the
 workshop is only open to people from a particular institution.
 {% endcomment %}
 {% if site.carpentry == "swc" %}
-Workshops are open to all staff, faculty, students, and other researchers in the Santa Barbara Area- including UCSB, Westmont, and SB Community College. <strong>You don't need to have any previous knowledge of the tools that will be presented at the workshop.</strong>
+{% include swc/who.html %}
 {% elsif site.carpentry == "dc" %}
 {% include dc/who.html %}
 {% elsif site.carpentry == "lc" %}
