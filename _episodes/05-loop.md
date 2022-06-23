@@ -552,7 +552,7 @@ files "a-file.dat", "b-file.dat" and "c-file.dat" in the current directory
 the loop will successively call the echo command three times and print three
 lines: "cp basislisk.dat original-a-file.dat", then "cp b-file.dat
 original-b-file.dat" and finally "cp c-file.dat
-original-c-file.dat"](../fig/shell_script_for_loop_flow_chart.svg)
+original-c-file.dat"](../fig/shell_script_for_loop_flow_chart.png)
 
 ## Example Pipeline: Processing Files
 
