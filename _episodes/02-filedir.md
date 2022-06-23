@@ -328,6 +328,10 @@ To **quit** the `man` pages, press <kbd>Q</kbd>.
 
 ### Exploring Other Directories
 
+Below is a directory tree of the folder shell-lesson-data. As you follow along the lesson and maneuver in this folder, use the below image as a guide.
+
+![A directory tree below the shell-lesson-data directory](../fig/filesystem-data.png)
+
 Not only can we use `ls` on the current working directory,
 but we can use it to list the contents of a different directory.
 Let's take a look at our `Desktop` directory by running `ls -F Desktop`,
@@ -714,6 +718,21 @@ directories "backup" and "thing"; "/Users/backup" contains "original",
 > {: .solution}
 {: .challenge}
 
+> ## Try Exploring
+> Move around the computer, get used to moving in and out of directories, see how
+> different file types appear in the Unix shell. Be sure to use the pwd and cd commands,
+> and the different flags for the ls command you learned so far.
+>
+> Move into the ‘shell-lesson-data’ directory that you downloaded to prepare for this
+> workshop. How many files are there? How large is each one? When were they created?
+>
+> If you run Windows, also try typing explorer `.` to open Explorer for the current
+> directory (the single dot means “current directory”). If you’re on a Mac, try `open .`
+> and for Linux try `xdg-open .` to open their graphical file manager.
+>
+{: .challenge}
+
+If we ever get completely lost, the command `cd` without any arguments will bring us right back to the home directory, the place where we started.
 
 ## General Syntax of a Shell Command
 We have now encountered commands, options, and arguments,
@@ -787,6 +806,24 @@ Network/              Volumes/
 ~~~
 {: .output}
 
+> ## Using the `echo` command
+> The echo command simply prints out a text you specify. Try it out:
+> echo "Hello World!".
+> You can combine both text and normal shell commands using echo, for example the
+> pwd command you have learned earlier today. You do this by enclosing a shell command
+> in $( and ), for instance $(pwd). Now, try out the following:
+> ~~~
+> echo "Finally, it is nice and sunny on" $(date).
+> ~~~
+> {: .language-bash}
+>
+> Do you think the echo command is actually quite important in the shell environment?
+> Why or why not?
+> > ## Solution
+> > The command is useful for writing automated shell scripts. For instance, you often
+> > need to output text to the screen, such as the current status of a script.
+> {: .solution}
+{: .challenge}
 
 ### Exercise Pipeline: Organizing Files
 
