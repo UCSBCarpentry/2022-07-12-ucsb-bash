@@ -126,8 +126,8 @@ Documents   Library     Music       Public
 
 ## Exercise Pipeline: A Typical Problem
 
-In the folder exercise files, named "ex-files" in our file system, there are 1520 text files.
-We needs to run all 1520 files through an imaginary program called `goostats.sh`.
+Throughout this workshop lesson, we will make progress on developing a programmatic pipeline on the files in "ex-files". In the folder exercise files, there are 1520 text files.
+The goal of the pipeline is to run all 1520 files through an imaginary program called `goostats.sh`.
 
 If we run `goostats.sh` by hand using a GUI,
 we'll have to select and open a file 1520 times.
