@@ -332,6 +332,13 @@ Below is a directory tree of the folder shell-lesson-data. As you follow along t
 
 ![A directory tree below the shell-lesson-data directory](../fig/filesystem-data.png)
 
+> .## zip Files
+> 
+> When you download files, the file may be in a compressed folder or a ZIP file.
+> You can identify a compresed file with a `.zip` extension.
+> In order to access the file contents with the shell, you need up **unzip** the file first.
+{: .callout}
+
 Not only can we use `ls` on the current working directory,
 but we can use it to list the contents of a different directory.
 Let's take a look at our `Desktop` directory by running `ls -F Desktop`,
