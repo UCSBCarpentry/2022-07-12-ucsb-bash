@@ -330,10 +330,10 @@ To **quit** the `man` pages, press <kbd>Q</kbd>.
 
 Below is a directory tree of the folder shell-lesson-data. As you follow along the lesson and maneuver in this folder, use the below image as a guide.
 
-![A directory tree below the shell-lesson-data directory](../fig/filesystem-data.png)
+![A directory tree below the shell-lesson-data directory](../fig/filesystem-data.svg)
 
-> .## zip Files
-> 
+> ## .zip Files
+>
 > When you download files, the file may be in a compressed folder or a ZIP file.
 > You can identify a compresed file with a `.zip` extension.
 > In order to access the file contents with the shell, you need up **unzip** the file first.
