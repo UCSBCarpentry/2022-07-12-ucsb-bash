@@ -13,7 +13,7 @@ humandate: "July 12 & 14, 2022"    # human-readable dates for the workshop (e.g.
 humantime: "10 am - 12:30 pm PST"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2022-07-12      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2022-07-14        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Seth Erickson", "Amanda Ho"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+instructor: ["Seth Erickson", "Amanda Ho", "Kristi Liu", "Jon Jablonski"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Brian Dincau"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["library-collaboratory@ucsb.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes: https://pad.carpentries.org/2022-07-12-ucsb-bash # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
@@ -141,10 +141,10 @@ address.
   <strong>Where:</strong> This workshop will support in-person and remote, online attendance.   
   If you register as a remote attendeee,
   the instructors will provide you with the information you will need to connect to this meeting.   
-  
+
   If you register as an in-person attendeee, the workshop will take place at   
   Davidson Library, UCEN Rd, Santa Barbara, CA.   
-  
+
   We acknowledge that this University system was founded upon exclusions and erasures of many Indigenous peoples, including those on whose lands UCSB is located: the villages and unceded lands of the <a href= "https://native-land.ca/maps/territories/chumash/">Chumash people</a>. You may read more on <a href= "https://www.csusm.edu/cicsc/land.pdf">Land Acknowlegment</a>
 </p>
 {% elsif online == "true_public" %}
@@ -413,14 +413,32 @@ please preview your site before committing, and make sure to run
   Library Carpentry
   {% endif %}
   workshop,
-  you will need access to software as described below.
-  In addition, you will need an up-to-date web browser.  If you are attending this workshop remotely, please install/update the Zoom video conference application.
+  you will need to complete the Setup checklist. Please email [library-collaboratory@ucsb.edu](mailto:library-collaboratory@ucsb.edu) with any questions regarding setup.
 </p>
+
+> ## Setup Checklist
+> If your **device** is logged into any drives, you need to log out before starting the setup instructions (e.g. OneDrive, DropBox, etc.)
+>
+> - Data files
+> - The Bash Shell
+> - Text editor
+> - Up-to-date browser
+> - Zoom video conferencing app (if attending remotely)
+{: .checklist}
+
 <p>
   We maintain a list of common issues that occur during installation as a reference for instructors
   that may be useful on the
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
+
+> ## Data Download
+> For this workshop, we will be using instructional sample data that was created for this workshop.
+> The data can be found on the workshop repository:
+> [Link to download data](https://downgit.github.io/#/home?url=https://github.com/UCSBCarpentry/2022-07-12-ucsb-bash/tree/gh-pages/data/shell-lesson-data).
+> Once the download is complete, you will have a ZIP file of a folder named "shell-lesson-data".
+> Please <strong>unzip this file and move the folder, "shell-lesson-data", onto your desktop.</strong>
+{: .prereq}
 
 {% comment %}
 For online workshops, the section below provides:
