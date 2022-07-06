@@ -69,7 +69,6 @@ are not using Eventbrite, or leave it in, since it will not be
 displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 {% if page.eventbrite %}
-<h2>Registration for this workshop begins on Jun 24, 2022 at 8:00 am PST.</h2>
 
 Please select only one ticket type (in-person or remote) in the form below. <strong>Some adblockers block the registration window. If you do not see the
   registration box, please check your adblocker settings.</strong>
