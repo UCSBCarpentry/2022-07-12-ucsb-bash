@@ -1,26 +1,6 @@
 [![Website](https://github.com/carpentries/workshop-template/actions/workflows/website.yml/badge.svg)](https://github.com/carpentries/workshop-template/actions/workflows/website.yml)
 
-# The Carpentries Workshop: Repo Progress
-
--edits were made up to here-
-
-3. Once you are done, please also [let us know][email] the workshop URL. If this is a self-organised
-   workshop, you should also [fill in the self-organized workshop
-   form][self-organized-workshop-form] (if you have not already done so), so we can keep track of
-   all workshops. We build the list of workshops on our websites from the data included in your
-   `index.md` page. We can only do that if you [customize][customization] that page correctly *and*
-   let us know the workshop URL.
-   
--edits were made up to here-
-
-5. Edit the `schedule.html` file to edit the schedule for your upcoming workshop. This file is
-   located in the `_includes` directory, make sure to choose the one from the appropriate `dc` (Data
-   Carpentry workshop), `lc` (Library Carpentry), or `swc` (Software Carpentry) subdirectory.
-
-### Update the content of the README file
-
-You can change the `README.md` file in your website's repository, which contains these instructions,
-so that it contains a short description of your workshop and a link to the workshop website.
+This repo generates a Bash Carpentries workshop website.
 
 
 ## Additional Notes
