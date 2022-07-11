@@ -24,7 +24,7 @@ keypoints:
 Now that we know a few basic commands,
 we can finally look at the shell's most powerful feature:
 the ease with which it lets us combine existing programs in new ways.
-We'll start with the directory `shell-lesson-data/exercise-data/proteins`
+We'll start with the directory `shell-lesson-data/ex-data/proteins`
 that contains six files describing some simple organic molecules.
 The `.pdb` extension indicates that these files are in Protein Data Bank format,
 a simple text format that specifies the type and position of each atom in the molecule.
@@ -460,7 +460,7 @@ the "sort" command is the input to the "head" command and the output of the
 > > The pipe character `|` is used to connect the output from one command to
 > > the input of another.
 > > `>` is used to redirect standard output to a file.
-> > Try it in the `shell-lesson-data/exercise-data/proteins` directory!
+> > Try it in the `shell-lesson-data/ex-data/proteins` directory!
 > {: .solution}
 {: .challenge}
 
@@ -584,7 +584,7 @@ so that you and other people can put those programs into pipes to multiply their
 >
 > The `uniq` command has a `-c` option which gives a count of the
 > number of times a line occurs in its input.  Assuming your current
-> directory is `shell-lesson-data/exercise-data/csv`,
+> directory is `shell-lesson-data/ex-data/csv`,
 > what command would you use to produce a table that shows
 > the total count of each type of animal in the file?
 >
